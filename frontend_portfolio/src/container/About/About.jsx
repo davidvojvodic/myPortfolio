@@ -22,11 +22,8 @@ const About = () => {
   return (
     <>
       <h2 className='head-text'>
-        I Know That {''}
-        <span>Good Design {''}</span>
-        <br />
-        means {''}
-        <span>Good Business</span>
+        <span>Code</span> is poetry,
+        <br /><span>web development</span> is an art
       </h2>
 
       <div className='app__profiles'>

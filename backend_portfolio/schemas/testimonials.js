@@ -4,27 +4,39 @@ export default {
     type: 'document',
     fields:[
         { 
-            name:'name',
-            title:'Name',
+            name:'year',
+            title:'Year',
             type: 'string'
         },
         {
-            name:'company',
-            title:'Company',
+            name:'description',
+            title:'Description',
             type:'string'
         },
         {
-            name:'imgurl',
-            title:'ImgUrl',
+            name:'icon',
+            title:'Icon',
             type: 'image',
             options: {
               hotspot: true,
             },
-        },  
+        },
+        
+    ],
+    orderings: [
         {
-            name:'feedback',
-            title:'Feedback',
-            type:'string'
+          title: 'Year, New',
+          name: 'yearDesc',
+          by: [
+            {field: 'year', direction: 'desc'}
+          ]
+        },
+        {
+          title: 'Year, Old',
+          name: 'yearAsc',
+          by: [
+            {field: 'year', direction: 'asc'}
+          ]
         }
     ]
 }
