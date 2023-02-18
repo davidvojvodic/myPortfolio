@@ -76,7 +76,7 @@ const Work = () => {
       {/* Div za prikaz kartic kere se filtrerajo */}
       <motion.div
         animate={animateCard}
-        transition={{ duration: 0.5, delayChildren: 0.5 }}
+        transition={{ duration: 1, delayChildren: 1 }}
         className="app__work-portfolio"
       >
         {filterWork.map((work, index) => (

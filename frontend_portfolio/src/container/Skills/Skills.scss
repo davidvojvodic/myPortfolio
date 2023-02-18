@@ -34,6 +34,7 @@
 
     margin: 1rem;
     transition: all 0.3s ease-in-out;
+    
 
     div {
         width: 90px;
@@ -78,6 +79,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 4rem;
+    
 
     // css za vsako kartico posebej
     .app__certificates-item {
@@ -90,12 +92,13 @@
         color: #000;
         justify-content: flex-start;
     align-items: flex-start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
         cursor: pointer;
         transition: all 0.5s ease;
 
         &:hover {
-            box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
         }
 
         @media screen and (min-width:2000px) {

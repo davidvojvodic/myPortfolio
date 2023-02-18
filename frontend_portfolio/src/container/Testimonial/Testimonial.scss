@@ -4,6 +4,13 @@
   flex-direction: column;
 }
 
+.glaven-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .app__cv-item {
   width: 60%;
   min-height: 320px;
@@ -43,6 +50,7 @@
 
   padding: 0 2rem;
   text-align: center;
+  
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;

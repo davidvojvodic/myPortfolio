@@ -62,12 +62,13 @@
         border-radius: 0.5rem;
         background-color: var(--secondary-color);
         color: #000;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
         
         transition: all 0.5s ease;
 
         &:hover {
-            box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
         }
 
         @media screen and (min-width:2000px) {
